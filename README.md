@@ -4,47 +4,48 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-<!-- REPLACE -->
-<!-- [TITLE] -->
-<!-- [FOLDER] -->
-<!-- [GITHUB REPO] -->
+
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="https://github.com/[GITHUB REPO]">
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker">
         <img src="images/logo.png" alt="Logo" width="80" height="80">
     </a>
-    <h3 align="center">[TITLE]</h3>
+    <h3 align="center">ISS Tracker</h3>
     <p align="center">
     <!-- PROJECT DESCRIPTION -->
+    Tracking International Space Station (ISS). It will show where is located on a world map.
     <br />
     <br />
     <!-- PROJECT SCREENSHOTS -->
-    <!--
-    <a href="https://github.com/[GITHUB REPO]/blob/main/images/screenshot01.png">
-        <img src="images/screenshot01.png" alt="screenshot" width="120" height="120">
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker/blob/main/images/screenshot01.png">
+        <img src="images/screenshot01.png" alt="screenshot" height="120">
     </a>
-    -->
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker/blob/main/images/screenshot01.png">
+        <img src="images/screenshot02.png" alt="screenshot" height="120">
+    </a>
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker/blob/main/images/screenshot01.png">
+        <img src="images/screenshot03.png" alt="screenshot" height="120">
+    </a>
     <br />
-    <a href="https://github.com/[GITHUB REPO]"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/[GITHUB REPO]/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/[GITHUB REPO]/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/TirsvadGUI/Python.Tools.IssTracker/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
 
   </p>
 </div>
 
-# [TITLE]
+# ISS Tracker
 
 <!-- PROJECT DESCRIPTION -->
 
 # Getting Started
 
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and
-running follow these simple example steps.
+Tracking International Space Station (ISS). It will show where is located on a world map.
 
 ## Prerequisites
 
@@ -55,14 +56,14 @@ You have python 3 installed.
 In a terminal do following
 
 ```console
-mkdir [FOLDER]
-curl -L https://api.github.com/repos/[GITHUB REPO]/tarball | tar -xz --strip-components=3 -C [FOLDER]
+mkdir IssTracker
+curl -L https://api.github.com/repos/TirsvadGUI/Python.Tools.IssTracker/tarball | tar -xz --strip-components=3 -C IssTracker
 ```
 
-For run the application go to the folder [FOLDER] and run.
+For run the application go to the folder IssTracker and run.
 
 ```commandline
-cd [FOLDER]
+cd IssTracker
 python main.py
 ```
 
@@ -95,25 +96,50 @@ git push origin feature
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/[GITHUB REPO]?style=for-the-badge
+### Using 3 party source
+<ol>
+    <li>Icons</li>
+    <ol>
+        <li>Satellite</li>
+        <ol>
+            <li>Source: https://commons.wikimedia.org/wiki/File:FP_Satellite_icon.svg</li>
+            <li>License: https://creativecommons.org/licenses/by-sa/3.0/deed.en</li>
+        </ol>
+        <li>Home</li>
+        <ol>
+            <li>Author: Dave Gandy</li>
+            <li>Source: Source https://www.flaticon.com/free-icon/home_25694</li>
+            <li>License: https://creativecommons.org/licenses/by/3.0/deed.en</li>
+        </ol>
+    </ol>
+    <ol>
+        <li>Map</li>
+        <ol>
+            <li>sources http://google.com/maps</li>
+            <li>sources https://www.openstreetmap.org</li>
+        </ol>
+    </ol>
+</ol>
 
-[contributors-url]: https://github.com/[GITHUB REPO]/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/TirsvadGUI/Python.Tools.IssTracker?style=for-the-badge
 
-[forks-shield]: https://img.shields.io/github/forks/[GITHUB REPO]?style=for-the-badge
+[contributors-url]: https://github.com/TirsvadGUI/Python.Tools.IssTracker/graphs/contributors
 
-[forks-url]: https://github.com/[GITHUB REPO]/network/members
+[forks-shield]: https://img.shields.io/github/forks/TirsvadGUI/Python.Tools.IssTracker?style=for-the-badge
 
-[stars-shield]: https://img.shields.io/github/stars/[GITHUB REPO]?style=for-the-badge
+[forks-url]: https://github.com/TirsvadGUI/Python.Tools.IssTracker/network/members
 
-[stars-url]: https://github.com/[GITHUB REPO]/stargazers
+[stars-shield]: https://img.shields.io/github/stars/TirsvadGUI/Python.Tools.IssTracker?style=for-the-badge
 
-[issues-shield]: https://img.shields.io/github/issues/[GITHUB REPO]?style=for-the-badge
+[stars-url]: https://github.com/TirsvadGUI/Python.Tools.IssTracker/stargazers
 
-[issues-url]: https://github.com/[GITHUB REPO]/issues
+[issues-shield]: https://img.shields.io/github/issues/TirsvadGUI/Python.Tools.IssTracker?style=for-the-badge
 
-[license-shield]: https://img.shields.io/github/license/[GITHUB REPO]?style=for-the-badge
+[issues-url]: https://github.com/TirsvadGUI/Python.Tools.IssTracker/issues
 
-[license-url]: https://github.com/[GITHUB REPO]/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/TirsvadGUI/Python.Tools.IssTracker?style=for-the-badge
+
+[license-url]: https://github.com/TirsvadGUI/Python.Tools.IssTracker/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
